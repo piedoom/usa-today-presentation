@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title USA TODAY
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section.blue
+        h1 USA TODAY
+        footer
+
+      section
+        h2 Goal
+        h4 To easily curate content, entertain the user, and keep the average millenial informed without effort
+        footer
+
+      section.blue
+        div.column.seven
+          h2 Our Solution
+          h3 The Daily Brief      
+          ul
+            li Effortlessly provide content in a singular stream
+            li Allow only a macro level of control
+            li Delight the user with quick animations and easy browsing 
+        div.column.three
+          div.phone
+            video(src='./images/expand_article.mp4' autoplay loop)
+
+      section
+        div.column.seven
+          h2 Daily Brief
+          ul
+            li Allow the user to have control over what they want to see
+            li Send a push notification once a day when a story is ready
+            li Push notifications boost engagement by 88%
+        div.column.three
+          video(src='./images/bucketize.mp4' autoplay loop)
+
+      section
+        div.column.seven
+          h2 Easy Onboarding
+          h3 Get the user in the app as quickly and painlessly as possible
+        div.column.three
+          video(src='./images/bucketize.mp4' autoplay loop)
+
+      section
+        div.column.seven
+          h2 Smart Links
+          ul
+            li A natural evolution of internal linking 
+            li Give the user more options & make them feel informed
+            li Keep the user in the app for as long as possible
+        div.column.three
+          div.phone
+            video(src='./images/smart links.mp4' autoplay loop)
+
+      section
+        h2 Sharing & Social Presence
+        ul
+          li Allow for easy sharing at the end of articles 
+          li Use OS specific default share menu to eliminate confusion
+          li Use custom OpenGraph images to enhance USA TODAY social media precense
+        footer
+
+      section.blue
+        h1 THANK YOU
+        footer
+
+    script(src='build/build.js')
